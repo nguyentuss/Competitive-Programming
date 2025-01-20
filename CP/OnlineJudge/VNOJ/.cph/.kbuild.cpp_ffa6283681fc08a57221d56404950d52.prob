@@ -1,0 +1,1 @@
+{"name":"Local: kbuild","url":"d:\\CODE\\WORK\\C++\\Online Code WEB\\VNOJ\\kbuild.cpp","tests":[{"id":1644594298993,"input":"6\n1 2\n2 3\n2 4\n4 5\n4 6\n2\n3 6\n5 6","output":"1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\CODE\\WORK\\C++\\Online Code WEB\\VNOJ\\kbuild.cpp","group":"local","local":true}

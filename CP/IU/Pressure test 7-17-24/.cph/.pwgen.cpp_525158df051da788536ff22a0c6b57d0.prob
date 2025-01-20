@@ -1,0 +1,1 @@
+{"name":"Local: pwgen","url":"d:\\Work\\CODE\\CP\\IU\\Pressure test 7-17-24\\pwgen.cpp","tests":[{"id":1721196948669,"input":"9 2 5 1 ","output":"0Abababa"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Work\\CODE\\CP\\IU\\Pressure test 7-17-24\\pwgen.cpp","group":"local","local":true}

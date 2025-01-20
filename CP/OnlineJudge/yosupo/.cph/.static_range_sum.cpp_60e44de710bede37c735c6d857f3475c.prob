@@ -1,0 +1,1 @@
+{"name":"Local: static_range_sum","url":"d:\\Work\\CODE\\CP\\OnlineJudge\\yosupo\\static_range_sum.cpp","tests":[{"id":1733838964179,"input":"5 5\n1 10 100 1000 10000\n2 3\n0 3\n2 5\n3 4\n0 5","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Work\\CODE\\CP\\OnlineJudge\\yosupo\\static_range_sum.cpp","group":"local","local":true}

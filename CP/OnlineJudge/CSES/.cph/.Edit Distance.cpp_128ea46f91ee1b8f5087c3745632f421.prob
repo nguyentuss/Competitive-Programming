@@ -1,0 +1,1 @@
+{"name":"Local: Edit Distance","url":"d:\\CODE\\WORK\\C++\\Online Code WEB\\CSES\\Edit Distance.cpp","tests":[{"id":1662632369159,"input":"LOVE\nMOVIE","output":""},{"id":1662632687806,"input":"L\nLLLLLLL","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\CODE\\WORK\\C++\\Online Code WEB\\CSES\\Edit Distance.cpp","group":"local","local":true}

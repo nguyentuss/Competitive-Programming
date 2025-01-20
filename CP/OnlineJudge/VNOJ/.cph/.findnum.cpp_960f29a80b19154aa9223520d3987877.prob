@@ -1,0 +1,1 @@
+{"name":"Local: findnum","url":"d:\\CODE\\WORK\\C++\\Online Code WEB\\VNOJ\\findnum.cpp","tests":[{"id":1642498059441,"input":"1\n10","output":"1\n2\n6\n24\n83160"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\CODE\\WORK\\C++\\Online Code WEB\\VNOJ\\findnum.cpp","group":"local","local":true}

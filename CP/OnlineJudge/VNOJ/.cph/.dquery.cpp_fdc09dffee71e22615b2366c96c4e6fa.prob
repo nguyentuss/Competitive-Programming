@@ -1,0 +1,1 @@
+{"name":"Local: dquery","url":"d:\\CODE\\WORK\\C++\\Online Code WEB\\VNOJ\\dquery.cpp","tests":[{"id":1653363113194,"input":"5\n1 1 2 1 3\n4\n1 2\n2 4\n3 5\n2 3","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\CODE\\WORK\\C++\\Online Code WEB\\VNOJ\\dquery.cpp","group":"local","local":true}

@@ -1,0 +1,1 @@
+{"name":"Local: UVA-815","url":"d:\\Work\\CODE\\CP\\OnlineJudge\\UVA\\UVA-815.cpp","tests":[{"id":1718785413617,"input":"3 3\n25 37 45\n51 12 34\n94 83 27\n10000\n0 0","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Work\\CODE\\CP\\OnlineJudge\\UVA\\UVA-815.cpp","group":"local","local":true}

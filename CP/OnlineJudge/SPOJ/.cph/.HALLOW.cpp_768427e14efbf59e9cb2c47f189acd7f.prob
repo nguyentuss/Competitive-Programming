@@ -1,0 +1,1 @@
+{"name":"Local: HALLOW","url":"d:\\Work\\CODE\\CP\\OnlineJudge\\SPOJ\\HALLOW.cpp","tests":[{"id":1721482228926,"input":"4 5\n1 2 3 7 5\n3 6\n7 11 2 5 13 17\n0 0","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Work\\CODE\\CP\\OnlineJudge\\SPOJ\\HALLOW.cpp","group":"local","local":true}

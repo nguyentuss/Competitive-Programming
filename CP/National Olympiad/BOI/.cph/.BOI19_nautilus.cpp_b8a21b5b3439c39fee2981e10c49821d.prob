@@ -1,0 +1,1 @@
+{"name":"Local: BOI19_nautilus","url":"d:\\CODE\\WORK\\C++\\Online Code WEB\\OJ\\BOI19_nautilus.cpp","tests":[{"id":1657541423839,"input":"5 9 3\n...##....\n..#.##..#\n..#....##\n.##...#..\n....#....\nWS?EE??","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\CODE\\WORK\\C++\\Online Code WEB\\OJ\\BOI19_nautilus.cpp","group":"local","local":true}

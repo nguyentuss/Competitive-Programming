@@ -1,0 +1,1 @@
+{"name":"Local: msegments","url":"d:\\CODE\\msegments.cpp","tests":[{"id":1662817053569,"input":"3 1\n1 3 \n1 2 \n3 3","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\CODE\\msegments.cpp","group":"local","local":true}

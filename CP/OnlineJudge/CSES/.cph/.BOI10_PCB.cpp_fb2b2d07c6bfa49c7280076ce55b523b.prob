@@ -1,0 +1,1 @@
+{"name":"Local: BOI10_PCB","url":"d:\\CODE\\WORK\\C++\\Online Code WEB\\CSES\\BOI10_PCB.cpp","tests":[{"id":1662813345423,"input":"2\n1 1\n3 3","output":""},{"id":1662813551902,"input":"2\n1 3\n3 1\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\CODE\\WORK\\C++\\Online Code WEB\\CSES\\BOI10_PCB.cpp","group":"local","local":true}

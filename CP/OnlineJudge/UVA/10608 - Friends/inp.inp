@@ -1,0 +1,90 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+#define iii pair<int , pair<int , int>>
+#define iv pair <int , iii>
+#define ii pair<int , int>
+
+int k , a , b , c , x , y , z;
+int Z , M , S , z0 , m0 , s0;
+vector <iii> v;
+vector <iv> ans;
+bool C[5][5][5];
+
+void DFS(int time , int Z , int S , int M) {
+	if (time > k) return;
+	C[Z][S][M] = true;
+	for (iii e : v) {	
+		if (!C[time + 1][Z + e.first][S + e.second.first][M + e.second.second])
+			DFS(time + 1 , Z + e.first , S + e.second.first , M + e.second.second);
+	}
+}
+
+void loang() 
+{
+	queue <iv> q;
+	q.push(iv());
+	C[x][y][z]=1;
+	while (st.size()) 
+	{
+		x=st.front().x,y=st.front().y,z=st.front().z;
+		int Time=st.front().i;
+		st.pop();
+		if (X<=x&&Y<=y&&Z<=z) 
+		{
+			ans.push_back({x,y,z,Time});
+			continue;
+		}
+		if (Time==k) continue;
+		for (auto t:a) 
+		{
+			int i=x-t.x+t.i,j=y-t.y+t.j,k=z-t.z+t.k;
+			if (x>=t.x&&i<=4&&y>=t.y&&j<=4&&z>=t.z&&k<=4&&!dd[i][j][k]) 
+			{
+				dd[i][j][k]=1;
+				st.push({i,j,k,Time+1});
+			}
+		}
+	}
+}
+
+int main(){
+	ios::sync_with_stdio(0); cin.tie(NULL);
+	freopen("collect.inp","r",stdin);
+	freopen("collect.out","w",stdout);
+	cin >> k >> Z >> S >> M >> z0 >> s0 >> m0;
+	while (cin >> a >> b >> c >> x >> y >> z) 
+		v.push_back(iii(x - a , ii(y - b , z- c)));
+	sort(v.begin() , v.end());
+	for (int i = 0 ; i <= 1000 ; i++) {
+		for (int z = 0 ; z <= 5 ; z++) {
+			for (int s = 0 ; s <= 5 ; s++) {
+				for (int m = 0 ; m <= 5 ; m++) {
+					C[i][z][s][m] = false;
+				}
+			}
+		}
+	}
+	DFS(0  , Z , S , M);
+	for (int i = z0 ; i <= 4 ; i++) {
+		for (int j = s0 ; j <= 4 ; j++) {
+			for (int h = m0 ; h <= 4 ; h++) {
+				for (int time = 0 ; time <= k ; time++) {
+					if (C[time][i][j][h]) {
+						ans.push_back(iv(time , iii(i , ii(j , h))));
+						break;
+					}
+				}
+			}
+		}
+	}
+	if (!ans.size()) cout << -1 << '\n';
+	else { 
+		cout << ans.size() << '\n';
+		sort(ans.begin() , ans.end());
+		for (iv e : ans)
+			cout << e.second.first << " " << e.second.second.first << " " << e.second.second.second << " " << e.first << '\n';
+	}
+	return 0;
+}

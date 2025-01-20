@@ -1,0 +1,1 @@
+{"name":"Local: A","url":"d:\\Work\\DanangCodeLeauge\\A.cpp","tests":[{"id":1717812741976,"input":"10\n...##..##.\n...#.#..#.\n#.###.#..#\n...#..###.\n.......##.\n#.....#..#\n#....#..#.\n#.#.....##\n........##\n##.#.#....\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Work\\DanangCodeLeauge\\A.cpp","group":"local","local":true}

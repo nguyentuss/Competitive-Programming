@@ -1,0 +1,1 @@
+{"name":"Local: Collecting NumbersII","url":"d:\\CODE\\Collecting NumbersII.cpp","tests":[{"id":1662043944165,"input":"5 3\n4 2 1 5 3\n2 3\n1 5\n2 3","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\CODE\\Collecting NumbersII.cpp","group":"local","local":true}

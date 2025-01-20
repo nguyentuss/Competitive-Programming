@@ -1,0 +1,64 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+#define int long long
+#define ii pair<int , int>
+#define rep(i, a, b) for(int i = a; i < (b); ++i)
+#define all(x) begin(x), end(x)
+#define sz(x) (int)x.size()
+typedef pair<int, int> pii;
+typedef vector<int> vi;
+template <typename T> using min_heap = priority_queue<T, vector<T>, greater<T>>;
+
+const int N = 1e5 + 7;
+const int inf = 1e18;
+
+vi val, comp, z, cont;
+int Time, ncomps;
+vector<int> adj[N];
+
+template<class G, class F> int dfs(int j, G& g, F& f) {
+	int low = val[j] = ++Time, x; z.push_back(j);
+	for (auto e : g[j]) if (comp[e] < 0)
+		low = min(low, val[e] ?: dfs(e,g,f));
+
+	if (low == val[j]) {
+		do {
+			x = z.back(); z.pop_back();
+			comp[x] = ncomps;
+			cont.push_back(x);
+		} while (x != j);
+		f(cont); cont.clear();
+		ncomps++;
+	}
+	return val[j] = low;
+}
+template<class G, class F> void scc(G& g, F f , int n) {
+	val.assign(n, 0); comp.assign(n, -1);
+	Time = ncomps = 0;
+	rep(i,0,n) if (comp[i] < 0) dfs(i, g, f);
+}
+
+void solve() {
+    int n , m; cin >> n >> m;
+    vector<tuple<int , int>> ed;
+    for (int i = 1 ; i <= m; i++) {
+        int u , v; cin >> u >> v;
+        u--; v--;
+        adj[u].push_back(v);
+        ed.push_back({u , v});
+    }
+    scc(adj , [&](vi cp){} , n);
+    //cout << ncomps << '\n';
+    cout << ncomps << '\n';
+    for (int x : comp) {
+        cout << x + 1 << " ";
+    }
+}
+
+main(){
+    ios_base::sync_with_stdio(0); cin.tie(NULL); cout.tie(NULL);
+    solve();
+    return 0;
+}

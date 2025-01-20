@@ -1,0 +1,1 @@
+{"name":"Local: BFS-DFS","url":"d:\\CODE\\WORK\\C++\\OnlineJudge\\CSA\\BFS-DFS.cpp","tests":[{"id":1663210686188,"input":"6\n1 3 5 6 4 2\n1 3 4 5 2 6","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\CODE\\WORK\\C++\\OnlineJudge\\CSA\\BFS-DFS.cpp","group":"local","local":true}
