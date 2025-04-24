@@ -1,0 +1,1 @@
+{"name":"Local: Chicago","url":"d:\\Work\\CODE\\CP\\OnlineJudge\\SPOJ\\Chicago.cpp","tests":[{"id":1745429787409,"input":"5 7\n5 2 100\n3 5 80\n2 3 70\n2 1 50\n3 4 90\n4 1 85\n3 1 70\n0","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Work\\CODE\\CP\\OnlineJudge\\SPOJ\\Chicago.cpp","group":"local","local":true}

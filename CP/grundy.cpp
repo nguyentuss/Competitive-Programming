@@ -15,8 +15,8 @@ const int inf = 1e9;
 const int N = 2e5 + 7;
 const int M = 1e5 + 7;
 
-int a[N];
-int g[N]; 
+int a[M];
+int g[M]; 
 vector<int> di[M];
 
 int mex(vector<int>& u) {
@@ -38,8 +38,11 @@ int Grundy(int i) {
 }
 
 void solve() {
-    int n; cin >> n;
-    for (int i = 1 ; i <= n ; i++) cin >> a[i]; 
+    int n, m; cin >> n >> m;
+    // for (int i = 1 ; i <= n ; i++) cin >> a[i]; 
+    for (int i = 1 ; i <= n ; i++) {
+        a[i] = m;
+    }
     for (int i = 1 ; i < M ; i++) g[i] = -1;
     g[1] = 0;
     for (int i = 2 ; i < M ; i++) {
@@ -47,8 +50,8 @@ void solve() {
         for (int j = 2 ; j * j <= i ; j++) {
             if (i % j == 0) {
                 if (j != i/j) {
-                di[i].push_back(j); 
-                di[i].push_back(i/j);
+                    di[i].push_back(j); 
+                    di[i].push_back(i/j);
                 }
                 else {
                     di[i].push_back(j);
@@ -57,7 +60,6 @@ void solve() {
             
         }
     }
-    // cerr << "YES";
     for (int i = 2 ; i < M ; i++) sort(di[i].begin() , di[i].end()); 
     for (int i = M - 1; i >= 1 ; i--) {
         if (g[i] == -1)
