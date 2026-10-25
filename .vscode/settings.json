@@ -1,4 +1,13 @@
 {
+    "C_Cpp.default.includePath": [
+        "${workspaceFolder}/**",
+        "${workspaceFolder}/include"
+    ],
+    "C_Cpp.default.compilerPath": "/usr/bin/clang++",
+    "C_Cpp.default.cppStandard": "gnu++17",
+    "code-runner.executorMap": {
+        "cpp": "cd $dir && clang++ -std=c++17 -I\"${workspaceFolder}/include\" $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt"
+    },
     "files.associations": {
         "tuple": "cpp",
         "iostream": "cpp",
@@ -19,6 +28,7 @@
         "latch": "cpp",
         "limits": "cpp",
         "semaphore": "cpp",
-        "valarray": "cpp"
+        "valarray": "cpp",
+        "stdc++.h": "cpp"
     }
 }
