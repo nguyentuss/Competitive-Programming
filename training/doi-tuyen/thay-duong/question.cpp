@@ -1,0 +1,49 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+#define ii pair<int ,int>
+#define f first
+#define s second
+
+unordered_map<int , bool> m;
+int n , a , b;
+
+void BFS() {
+    queue<ii> q;
+    q.push(ii(0 , 0));
+    m[0] = true;
+    while (!q.empty()) {
+        auto e = q.front();
+        q.pop();
+        if (e.s == n) continue;
+        if (!m[e.f + a]) {
+            m[e.f + a] = true;
+            q.push(ii(e.f + a , e.s + 1));
+        }
+        if (!m[e.f - b]) {
+            m[e.f - b] = true;
+
+            q.push(ii(e.f - b , e.s + 1));
+        }
+    }
+}
+
+int main() {
+    ios_base::sync_with_stdio(0); cin.tie(NULL);
+    freopen("question.inp","r",stdin);
+    freopen("question.out","w",stdout);
+    int t; cin >> t;
+    while (t--) {
+        m.clear();
+        cin >> n >> a >> b;
+        m[0] = true;
+        BFS();
+        int ans = 0;
+        for (auto it = m.begin() ; it != m.end() ; it++) {
+            if (it -> second) ans ++;
+        }
+        cout << ans << '\n';
+    }
+    return 0;
+}

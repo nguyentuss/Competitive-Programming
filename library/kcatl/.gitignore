@@ -1,0 +1,10 @@
+*
+!*/
+!*.*
+/build/
+*.aux
+*.log
+a.out
+header.tmp
+.vscode
+.cph/

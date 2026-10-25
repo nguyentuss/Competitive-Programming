@@ -22,6 +22,11 @@ tempCodeRunnerFile*
 cmake-build-*/
 CMakeFiles/
 CMakeCache.txt
+*.ninja
+*.cmake
+
+# Competitive Companion cache
+.cph/
 
 # OS Generated Files
 .DS_Store

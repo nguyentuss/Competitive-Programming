@@ -1,0 +1,19 @@
+Xe có bình xăng là C
+Xét đoạn có độ dài là d
+giả sử có x km chạy theo mode BT, y km chạy theo mode nhanh
+x + y = d
+x + 2y <= c
+y + d <= c
+c <= c - d
+chọn y = min(c-d,d) (vì để thỏa yêu cầu)
+x = d - y
+chọn bình xăng là 1 con số C thuộc [1..10^9] , giả sử là mid
+for ∀i : 1 -> n + 1
+{
+	d = g[i] - g[i-1];
+	y = min(c -d,d);
+	x = d - y;
+	sumtime += 2*x + y;
+}
+	if sumtime <= t return true;
+	else return false;

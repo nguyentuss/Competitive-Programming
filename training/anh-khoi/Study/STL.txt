@@ -1,0 +1,51 @@
+
+					STL
+1. String
+string s ="abc";
+<>.size() : lấy độ dài chuỗi s;
+<>.emtpy() : kiểm ra chuỗi có rỗng hay không
+2. Pair (cặp)
+#include <utility.h>
+pair <<kiểu dl1>,<kiểu dl2>> <tên pair>;
+ví dụ : pair <int,double> pr;
+	pr.first = 5;
+	pr.second = 5.0;
+3. Vector
+int a[100];
+vector <int> a;
+#include <vector>
+push_back()
+size()
+emtpy()
+back()
+pop_back()
+clear()
+4. stack
+push()
+top()
+pop()
+emtpy()
+5. queue (push,front,pop,empty)
+6. deque (push_back,pop_back,push_front,pop_front,emtpy,front,back)
+7. priority_queue
+#include <queue>
+push,top,pop,size,empty
+8. set/multiset(red-black tree)
+insert,find(x),erase(it),lowen_bound(x),upper_bound(x),clear(),empty(),size
+9. map/multimap
+	<key,value>
+insert,find(x),erase(it),lower_bound(x),upper_bound(x),clear(),empty(),size
+Truy xuất: <tên map>[key];
+	vd : map<int,double> M;
+	     M[1000000000] = 5;
+	     cout M[1000000000];
+{===========================================================================================}
+Thuật toán
+1. sort
+sắp xếp các phần tử thuộc [P..n];
+sort(a+l,a+r+l);
+sort(a+1,a+n+1);
+2. --gcd(a,b);
+3. max,min,swap,reverse()	
+
+   

@@ -1,0 +1,40 @@
+//#pragma GCC optimize("Ofast")
+//#pragma GCC target("avx,avx2,fma,popcnt")
+#include <bits/stdc++.h>
+using namespace std;
+
+#define int long long
+#define rep(i, a, b) for(int i = a; i < (b); ++i)
+#define all(x) begin(x), end(x)
+#define sz(x) (int)(x).size()
+typedef long long ll;
+typedef pair<int, int> pii;
+typedef vector<int> vi;
+template <typename T> using min_heap = priority_queue<T, vector<T>, greater<T>>;
+const int inf = 1e9;
+
+string dac(int n) {
+    if (n == 1) return "A"; 
+    string child = dac(n - 1);
+    char c = (char) ('A' + n - 1);
+    string x = ""; 
+    x += c;
+    return (child + x + child); 
+}
+
+void solve() {
+    int n; cin >> n;
+    cout << dac(n);
+}
+
+signed main() {
+    ios::sync_with_stdio(0); cin.tie(0);
+    cin.exceptions(cin.failbit);
+    int test; 
+    test = 1;
+    //cin >> test;
+    while (test--) {
+        solve();
+    }
+
+}

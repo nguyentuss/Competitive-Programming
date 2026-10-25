@@ -1,0 +1,670 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"va",
+				"val"
+			],
+			[
+				"begin",
+				"begin\tbrackets"
+			],
+			[
+				"qui",
+				"quickshort2"
+			],
+			[
+				"quicks",
+				"quickshort1"
+			],
+			[
+				"a",
+				"a"
+			],
+			[
+				"c",
+				"c"
+			],
+			[
+				"int",
+				"int64"
+			],
+			[
+				"p",
+				"p"
+			],
+			[
+				"b",
+				"b"
+			],
+			[
+				"e",
+				"End"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "arrt.pas",
+			"settings":
+			{
+				"buffer_size": 359,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Packages/User/Pascal.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Object Pascal/Object Pascal.sublime-build",
+					""
+				],
+				[
+					"Packages/Object Pascal/Object Pascal.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/Object Pascal/Object Pascal.sublime-build",
+					"Build and Run"
+				]
+			],
+			[
+				"Packages/Object Pascal/Object Pascal.sublime-build",
+				"Build and Run"
+			]
+		],
+		[
+			[
+				[
+					"Packages/User/C++.sublime-build",
+					""
+				],
+				[
+					"Packages/User/C++.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/User/C++.sublime-build",
+				"Run"
+			]
+		],
+		[
+			[
+				[
+					"Packages/User/C.sublime-build",
+					""
+				],
+				[
+					"Packages/User/C.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/User/C.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/User/Pascal.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Pascal.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/User/Pascal.sublime-build",
+					"Compile"
+				]
+			],
+			[
+				"Packages/User/Pascal.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/User/PascalG.sublime-build",
+					""
+				],
+				[
+					"Packages/User/PascalG.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/User/PascalG.sublime-build",
+					"Compile"
+				]
+			],
+			[
+				"Packages/User/PascalG.sublime-build",
+				"Run"
+			]
+		],
+		[
+			[
+				[
+					"Packages/User/RunC++.sublime-build",
+					""
+				],
+				[
+					"Packages/User/RunC++.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/User/RunC++.sublime-build",
+				"Run"
+			]
+		],
+		[
+			[
+				[
+					"Packages/User/g++.sublime-build",
+					""
+				],
+				[
+					"Packages/User/g++.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/User/g++.sublime-build",
+				"Run"
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"tab",
+				"View: Toggle Tabs"
+			],
+			[
+				"pac",
+				"Package Control: Remove Package"
+			],
+			[
+				"xdeub",
+				"Xdebug: Add/Remove Breakpoint"
+			],
+			[
+				"x",
+				"Xdebug: Stop Debugging"
+			],
+			[
+				"xde",
+				"Xdebug: Restart Session"
+			],
+			[
+				"ayu",
+				"ayu: Activate theme"
+			],
+			[
+				"mat",
+				"Activate Materialize Theme"
+			],
+			[
+				"ay",
+				"ayu: Activate theme"
+			],
+			[
+				"mate",
+				"Activate Materialize Theme"
+			],
+			[
+				"ui",
+				"UI: Select Theme"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"pref",
+				"Preferences: Settings"
+			],
+			[
+				"Prefer",
+				"Preferences: Settings"
+			],
+			[
+				"package Control:I",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control",
+				"Preferences: Package Control Settings – Default"
+			],
+			[
+				"",
+				"Build With: Pascal - Compile"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"pascal",
+				"Set Syntax: Pascal"
+			],
+			[
+				"Buid",
+				"Build: New Build System"
+			],
+			[
+				"run",
+				"Permute Lines: Unique"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 196.0,
+		"history":
+		[
+			"trace into arrt.pas",
+			"trace into"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Lenovo/Desktop/Pascal"
+	],
+	"file_history":
+	[
+		"/C/Users/Lenovo/Desktop/Pascal/nhap.pas",
+		"/C/Users/Lenovo/Desktop/Pascal/cotden.out",
+		"/C/Users/Lenovo/Desktop/Pascal/cotden.pas",
+		"/C/Users/Lenovo/Desktop/Pascal/capsomax.out",
+		"/C/Users/Lenovo/Desktop/Pascal/capsomax.inp",
+		"/C/Users/Lenovo/Desktop/Pascal/capsomax.pas",
+		"/C/Users/Lenovo/Desktop/Pascal/chuso.out",
+		"/C/Users/Lenovo/Desktop/Pascal/chuso.inp",
+		"/C/Users/Lenovo/Desktop/Pascal/chuso.pas",
+		"/C/Users/Lenovo/Desktop/Pascal/cotden.inp",
+		"/C/Users/Lenovo/Desktop/Pascal/frac.pas",
+		"/C/Users/Lenovo/Desktop/Pascal/dolech.out",
+		"/C/Users/Lenovo/Desktop/Pascal/dolech.pas",
+		"/C/Users/Lenovo/Desktop/Pascal/kang.out",
+		"/C/Users/Lenovo/Desktop/Pascal/kang.pas",
+		"/C/Users/Lenovo/Desktop/Pascal/luythua3.out",
+		"/C/Users/Lenovo/Desktop/Pascal/luythua3.inp",
+		"/C/Users/Lenovo/Desktop/Pascal/luythua3.pas",
+		"/C/Users/Lenovo/Desktop/Pascal/dolech.inp",
+		"/C/Users/Lenovo/Desktop/Pascal/sapxep.pas",
+		"/C/Users/Lenovo/Desktop/Pascal/kang.inp",
+		"/C/Users/Lenovo/Desktop/Pascal/robot.out",
+		"/C/Users/Lenovo/Desktop/Pascal/robot.inp",
+		"/C/Users/Lenovo/Desktop/Pascal/robot.pas",
+		"/C/Users/Lenovo/Desktop/Pascal/maxabs.out",
+		"/C/Users/Lenovo/Desktop/Pascal/maxabs.inp",
+		"/C/Users/Lenovo/Desktop/Pascal/maxabs.pas",
+		"/C/Users/Lenovo/Desktop/Pascal/frac.out",
+		"/C/Users/Lenovo/Desktop/Pascal/frac.inp",
+		"/C/Users/Lenovo/Downloads/bai46.pas",
+		"/C/Users/Lenovo/Desktop/Pascal/bai66.out",
+		"/C/Users/Lenovo/Desktop/Pascal/bai66.inp",
+		"/C/Users/Lenovo/Desktop/Pascal/bai66.pas",
+		"/C/Users/Lenovo/Desktop/Pascal/minsum.pas",
+		"/C/Users/Lenovo/Desktop/Pascal/bai63.out",
+		"/C/Users/Lenovo/Desktop/Pascal/bai63.inp",
+		"/C/Users/Lenovo/Desktop/Pascal/bai63.pas",
+		"/C/Users/Lenovo/Desktop/Pascal/bai61.out",
+		"/C/Users/Lenovo/Desktop/Pascal/bai61.inp",
+		"/C/Users/Lenovo/Desktop/Pascal/bai61.pas",
+		"/C/Users/Lenovo/Desktop/Pascal/arrt.out",
+		"/C/Users/Lenovo/Desktop/Pascal/arrt.inp",
+		"/C/Users/Lenovo/Desktop/Pascal/arrt.pas",
+		"/C/Users/Lenovo/Desktop/Pascal/soco.pas",
+		"/C/Users/Lenovo/Desktop/Pascal/soco.out",
+		"/C/Users/Lenovo/Desktop/Pascal/soco.inp",
+		"/C/Users/Lenovo/Desktop/Pascal/bai05.pas",
+		"/C/Users/Lenovo/Desktop/Pascal/minsum.out",
+		"/C/Users/Lenovo/Desktop/Pascal/ngthe.out",
+		"/C/Users/Lenovo/Desktop/Pascal/ngthe.inp",
+		"/C/Users/Lenovo/Desktop/Pascal/ngthe.pas",
+		"/C/Users/Lenovo/Desktop/Pascal/solap.out",
+		"/C/Users/Lenovo/Desktop/Pascal/solap.inp",
+		"/C/Users/Lenovo/Desktop/Pascal/daytang.pas",
+		"/C/Users/Lenovo/Desktop/Pascal/solap.pas",
+		"/C/Users/Lenovo/Desktop/Pascal/daytang.out",
+		"/C/Users/Lenovo/Desktop/Pascal/daytang.inp",
+		"/C/Users/Lenovo/Desktop/Pascal/socp.out",
+		"/C/Users/Lenovo/Desktop/Pascal/socp.inp",
+		"/C/Users/Lenovo/Desktop/Pascal/socp.pas",
+		"/C/Users/Lenovo/Desktop/Pascal/tim2so.out",
+		"/C/Users/Lenovo/Desktop/Pascal/tim2so.inp",
+		"/C/Users/Lenovo/Desktop/Pascal/tim2so.pas",
+		"/C/Users/Lenovo/Desktop/Pascal/ghepgiay.pas",
+		"/C/Users/Lenovo/Downloads/sum.out",
+		"/C/Users/Lenovo/Downloads/sum.inp",
+		"/C/Users/Lenovo/Downloads/sum.pas",
+		"/C/Users/Lenovo/Desktop/Pascal/ghepgiay.out",
+		"/C/Users/Lenovo/Desktop/Pascal/ghepgiay.inp",
+		"/C/Users/Lenovo/Desktop/Pascal/sogiao.pas",
+		"/C/Users/Lenovo/Desktop/Pascal/sogiao.out",
+		"/C/Users/Lenovo/Desktop/Pascal/sogiao.inp",
+		"/C/Users/Lenovo/Desktop/Pascal/timso.out",
+		"/C/Users/Lenovo/Desktop/Pascal/timso.pas",
+		"/C/Users/Lenovo/Desktop/Pascal/timso.inp",
+		"/C/Users/Lenovo/Desktop/Pascal/timhaiso.pas",
+		"/C/Users/Lenovo/Desktop/Pascal/tchiahet.out",
+		"/C/Users/Lenovo/Desktop/Pascal/tchiahet.inp",
+		"/C/Users/Lenovo/Desktop/Pascal/tchiahet.pas",
+		"/C/Users/Lenovo/Desktop/Pascal/xu.out",
+		"/C/Users/Lenovo/Desktop/Pascal/xu.inp",
+		"/C/Users/Lenovo/Desktop/Pascal/xu.pas",
+		"/C/Users/Lenovo/Desktop/Pascal/gtdayso.out",
+		"/C/Users/Lenovo/Desktop/Pascal/gtdayso.inp",
+		"/C/Users/Lenovo/Desktop/Pascal/gtdayso.pas",
+		"/C/Users/Lenovo/Desktop/Pascal/dembs.out",
+		"/C/Users/Lenovo/Desktop/Pascal/dembs.inp",
+		"/C/Users/Lenovo/Desktop/Pascal/dembs.pas",
+		"/C/Users/Lenovo/Desktop/Pascal/stnnn.out",
+		"/C/Users/Lenovo/Desktop/Pascal/stnnn.inp",
+		"/C/Users/Lenovo/Desktop/Pascal/stnnn.pas",
+		"/C/Users/Lenovo/Desktop/Pascal/stnnnn.out",
+		"/C/Users/Lenovo/Desktop/Pascal/bai25.out",
+		"/C/Users/Lenovo/Desktop/Pascal/bai25.inp",
+		"/C/Users/Lenovo/Desktop/Pascal/bai25.pas",
+		"/C/Users/Lenovo/Desktop/Pascal/tucln.inp",
+		"/C/Users/Lenovo/Desktop/Pascal/tucln.pas",
+		"/C/Users/Lenovo/Desktop/Pascal/tucln.out",
+		"/C/Users/Lenovo/Desktop/Pascal/bai15.out",
+		"/C/Users/Lenovo/Desktop/Pascal/bai15.inp",
+		"/C/Users/Lenovo/Desktop/Pascal/bai15.pas",
+		"/C/Users/Lenovo/Desktop/Pascal/uocnto.pas",
+		"/C/Users/Lenovo/Desktop/Pascal/uocnto.out",
+		"/C/Users/Lenovo/Desktop/Pascal/uocnto.inp",
+		"/C/Users/Lenovo/Desktop/Pascal/vitrung.out",
+		"/C/Users/Lenovo/Desktop/Pascal/vitrung.inp",
+		"/C/Users/Lenovo/Desktop/Pascal/vitrung.pas",
+		"/C/Users/Lenovo/Desktop/Pascal/timhaiso.out",
+		"/C/Users/Lenovo/Desktop/Pascal/timhaiso.inp",
+		"/C/Users/Lenovo/Desktop/Pascal/tongk.pas",
+		"/C/Users/Lenovo/Desktop/Pascal/tongk.out",
+		"/C/Users/Lenovo/Desktop/Pascal/tongk.inp",
+		"/C/Users/Lenovo/Desktop/Pascal/vaohang.out",
+		"/C/Users/Lenovo/Desktop/Pascal/vaohang.inp",
+		"/C/Users/Lenovo/Desktop/Pascal/vaohang.pas",
+		"/C/Users/Lenovo/Desktop/Pascal/vaohangout",
+		"/C/Users/Lenovo/Desktop/Pascal/vongdua.out",
+		"/C/Users/Lenovo/Desktop/Pascal/vongdua.inp",
+		"/C/Users/Lenovo/Desktop/Pascal/vongdua.pas",
+		"/C/Users/Lenovo/Desktop/Pascal/tichmax.inp",
+		"/C/Users/Lenovo/Desktop/Pascal/tichmax.pas",
+		"/C/Users/Lenovo/Desktop/Pascal/tichmax.out",
+		"/C/Users/Lenovo/Desktop/Pascal/mink.pas",
+		"/C/Users/Lenovo/Desktop/Pascal/strongnum.out",
+		"/C/Users/Lenovo/Desktop/Pascal/strongnum.inp",
+		"/C/Users/Lenovo/Desktop/Pascal/strongnum.pas",
+		"/C/Users/Lenovo/Desktop/Pascal/bookstor.out",
+		"/C/Users/Lenovo/Desktop/Pascal/bookstor.inp"
+	],
+	"find":
+	{
+		"height": 31.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			");\n",
+			"\n",
+			"<",
+			"z",
+			"nam",
+			"wirteln",
+			"m",
+			"max",
+			"t",
+			"Begin",
+			"uses",
+			";"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"<=",
+			"i",
+			"writeln",
+			"so"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "arrt.pas",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 359,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								357,
+								357
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Pascal/Pascal.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 31.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 126.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 126.0
+	},
+	"output.xdebug":
+	{
+		"height": 156.0
+	},
+	"pinned_build_system": "Packages/User/Pascal.sublime-build",
+	"project": "debug.sublime-project",
+	"replace":
+	{
+		"height": 136.0
+	},
+	"save_all_on_build": false,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\Users\\Lenovo\\Desktop\\Sublime\\nhap.pas"
+			],
+			[
+				"3",
+				"D:\\Sublime Text 3\\nhap.pas"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+		"xdebug":
+		{
+			"hide_conflict": false,
+			"restore_index":
+			{
+				"15":
+				{
+					"group": 0,
+					"index": 0
+				}
+			},
+			"restore_layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			}
+		}
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 190.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,0 +1,12 @@
+Có n món
+{ a1,a2,...,an}
+k món 
+{a[x1],[ax2],...,a[xk]}
+Tổng của a[xi] + xi*k
+Tối đa S đồng 
+chặt [1..r]
+Nếu check(mid) == t
+	ans = mid;
+	l = mid + 1
+else 
+	r = mid - 1;

@@ -1,0 +1,85 @@
+#include <iostream>
+#include <string>
+#include <fstream>
+#include <map>
+
+using namespace std;
+
+#define boost ios::sync_with_stdio(0); cin.tie(NULL);
+#define fi freopen("SPC4.inp","r",stdin);
+#define fo freopen("SPC4.out","w",stdout);
+
+int main() {
+	boost;
+	fi;fo;
+
+	int t , x; cin >> t;
+
+	while (t--) {
+	
+		string s,temp;
+		cin >> s;
+		vector <string> ARR;
+		
+		int length = 0;
+		
+		for (int i = 0 ; i < (int) s.size() ; i++) 
+			if ((int) s[i] >= 65 && (int) s[i] <= 90 ) length ++;
+		
+		map <string,int> chat,total;
+
+		for (int i = 0 ; i < length - 1 ; i++) {
+			cin >> temp;
+			cin >> x;
+			temp.erase(temp.size() - 1,temp.size() - 1);
+			chat[temp] = x;
+			total[temp] = chat[temp];	
+		}
+		int nhan;
+		for (int i = 0 ; i < (int) s.size() ; i++) {
+			if (((int) s[i] >= 48 && (int) s[i] <= 57) || (s[i] >= 40 && s[i] <= 41)) {
+				if (((int) s[i-1] >= 97 && (int) s[i-1] <= 122) || (s[i] >= 40 && s[i] <= 41)) {
+					if ((int) s[i] != 40 && (int) s[i] != 41)
+						total[s.substr(i-2,2)] = chat[s.substr(i-2,2)] *((int) s[i] - 48);
+					else total[s.substr(i-2,2)] = chat[s.substr(i-2,2)]*1;
+					if (total[s.substr(i-2,2)] == 0) nhan = (int) s[i] - 48;
+					//cout << total[s.substr(i-1,1)] << endl;
+				}
+				else if ((int) s[i-1] != 40 && (int)s[i-1] != 41){
+					total[s.substr(i-1,1)] = chat[s.substr(i-1,1)] *((int) s[i] - 48);
+					if (total[s.substr(i-1,1)] == 0) nhan = (int) s[i] - 48;
+				}
+			}
+			else if ((int) s[i+1] >= 65 && (int) s[i+1] <= 90){
+				//cout << s.substr(i,1);
+				if (((int) s[i] >= 97 && (int) s[i] <= 122))
+					total[s.substr(i-1,2)] = chat[s.substr(i-1,2)];
+				else total[s.substr(i,1)] = chat[s.substr(i,1)];
+
+			}
+		}
+		int mul , r , l ;
+		bool check = false;
+		for (int i = 0 ; i < (int) s.size() ; i++) {
+			if ((int) s[i] == 40) l = i;
+			else if ((int) s[i] == 41) {
+				r = i;
+				check = true;
+				mul = (int) s[i+1] - 48;
+				break;
+			}
+		}
+		//cout << l ;
+		if (check)
+		for (int i = l + 1 ; i < r ; i++) {
+			if ((int) s[i] >= 65 && (int) s[i] <= 90){
+				total[s.substr(i,1)] *= mul;
+				if (total[s.substr(i,1)] == 0) nhan += mul;
+			}
+		}
+		cout << total["H"];
+
+	}
+
+	return 0;
+}

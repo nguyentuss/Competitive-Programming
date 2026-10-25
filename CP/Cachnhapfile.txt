@@ -1,3 +1,0 @@
-while(!feof(stdin)){
-	cin >> n >> p >> q >> r;
-}

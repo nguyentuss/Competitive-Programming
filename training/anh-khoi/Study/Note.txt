@@ -1,0 +1,7 @@
+1. Implementation
+2. Search (binary search, bst, ternary search ...) 
+3. Data structure STL 
+4. Greedy 
+5. Dynamic Programming (phần này nặng, cần học nhiều và kỹ, sẽ có khoảng hơn 50 bài tập trung bình + khó ) 
+6. Graph (DFS/BFS, Dijkstra, MST, Flow, Maximum Matching)
+7. Math

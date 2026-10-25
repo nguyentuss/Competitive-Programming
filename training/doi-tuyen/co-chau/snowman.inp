@@ -1,0 +1,11 @@
+12
+5 7 1 2 7 7 1 1 7 7 5 1
+Các hàm của Vectors trong C ++
+1. Modifiers
+1. push_back(): Hàm đẩy một phần tử vào vị trí sau cùng của vector , mỗi lần thực hiện sẽ mất O(1) , Nếu kiểu của đối tượng được truyền dưới dạng tham số trong push_back() không giống với kiểu của vector thì sẽ bị ném ra . 
+VD: myvector.push_back(<một phần tử thuộc kiểu dữ liệu của vector đó>)
+2. assign(): Gán một giá trị mới cho các phần tử vector bằng cách thay thế các giá trị cũ , mỗi lần thực hiện sẽ mất O(size).
+VD:myvector.assign(int size, int value);
+3. pop_back(): Hàm được sử dụng để xóa đi phần tử cuối cùng một vector , mỗi lần thực hiện sẽ mất O(1)
+VD:myvector.pop_back();
+**4. insert()**:

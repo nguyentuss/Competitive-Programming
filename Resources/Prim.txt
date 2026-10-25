@@ -1,0 +1,15 @@
+Thuật toán Prim
+Ý tưởng
++ Dừng cây T từ đồ thị G có n đỉnh
++Bắt đầu từ cây T gồm một đỉnh bất kỳ , ta tiến hành tìm các đỉnh kề với các đỉnh của T có trọng số cạnh nhỏ nhất để kết nạp vào T
++Lặp lại cho đến khi T có đủ n đỉnh
+Thuật toán
+B1:khởi tạo L[i] = oo với mọi i
+B2 L[1] = 0 (nhãn đỉnh 1 = 0) Ke[1] = 0
+B3 Với mọi đỉnh i kề với đỉnh 1
+	+L[i] = G[i][1] ; ke[i] = 1;
+	+T={1}
+B4:Lặp cho đến khi T đủ n đỉnh
+	+Tìm u là đỉnh có nhãn nhỏ nhất
+	+T=T+{u};
+	+Với mọi v kề với u nếu G[u][v] < L[v] và v không thuôc T thì gán lại nhãn L[v] = G[u][v] và Ke[v] = u; 
