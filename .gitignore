@@ -1,0 +1,33 @@
+# Compiled Binaries & Executables
+*.exe
+*.bin
+*.o
+*.obj
+*.class
+*.dll
+*.so
+*.dylib
+a.out
+
+# Debug Symbols
+*.dSYM/
+*.pdb
+*.idb
+
+# Code Runner / VS Code Temp Files
+tempCodeRunnerFile*
+
+# IDE & Build Directories
+.idea/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+
+# OS Generated Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
