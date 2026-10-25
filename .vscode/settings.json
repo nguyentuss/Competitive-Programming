@@ -30,5 +30,6 @@
         "semaphore": "cpp",
         "valarray": "cpp",
         "stdc++.h": "cpp"
-    }
+    },
+    "cph.language.cpp.Args": "-std=c++17 -I/opt/homebrew/include -I${workspaceFolder}/include"
 }
